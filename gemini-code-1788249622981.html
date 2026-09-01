@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="ur-PK">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>For Eshaal | A Promise of Forever</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;600;700;800&family=Playfair+Display:ital,wght@0,600;0,800;1,400;1,700&display=swap" rel="stylesheet">
+
+    <style>
+        * {
+            font-family: 'Plus Jakarta Sans', sans-serif;
+            scroll-behavior: smooth;
+        }
+        .serif-font {
+            font-family: 'Playfair Display', serif;
+        }
+        /* Custom Glassmorphism */
+        .glass-card {
+            background: rgba(18, 18, 24, 0.7);
+            backdrop-filter: blur(16px);
+            -webkit-backdrop-filter: blur(16px);
+            border: 1px solid rgba(255, 255, 255, 0.08);
+            box-shadow: 0 20px 50px rgba(0, 0, 0, 0.5);
+        }
+        .glass-card:hover {
+            border-color: rgba(225, 29, 72, 0.35);
+            box-shadow: 0 25px 60px rgba(225, 29, 72, 0.15);
+        }
+        /* Glowing Ambient Gradients */
+        .glow-sphere {
+            position: absolute;
+            border-radius: 50%;
+            filter: blur(120px);
+            z-index: 0;
+            pointer-events: none;
+        }
+    </style>
+</head>
+<body class="bg-[#09090b] text-[#fafafa] overflow-x-hidden relative selection:bg-rose-600 selection:text-white">
+
+    <canvas id="heartCanvas" class="fixed inset-0 pointer-events-none z-0"></canvas>
+
+    <div class="glow-sphere w-[500px] h-[500px] bg-rose-900/20 top-[-100px] left-[-100px]"></div>
+    <div class="glow-sphere w-[600px] h-[600px] bg-red-950/20 bottom-[10%] right-[-150px]"></div>
+
+    <main class="relative z-10 max-w-4xl mx-auto px-6 py-16 sm:py-24 flex flex-col items-center">
+
+        <div class="inline-flex items-center gap-2 px-4 py-2 rounded-full border border-rose-500/20 bg-rose-500/10 text-rose-300 text-xs sm:text-sm tracking-widest uppercase font-semibold mb-8 animate-pulse">
+            <i data-lucide="heart" class="w-4 h-4 text-rose-500 fill-rose-500"></i>
+            Strictly For Eshaal Only
+        </div>
+
+        <header class="text-center space-y-4 mb-16">
+            <h1 class="serif-font text-5xl sm:text-7xl font-bold tracking-tight bg-gradient-to-b from-white via-neutral-200 to-neutral-500 bg-clip-text text-transparent">
+                Meri Eshaal,
+            </h1>
+            <p class="text-rose-400 font-medium text-lg sm:text-xl tracking-wide">
+                Yeh sirf ek message nahi, meri poori zindagi ka commitment hai.
+            </p>
+        </header>
+
+        <section class="w-full glass-card rounded-3xl p-8 sm:p-12 mb-12 transition-all duration-300 relative overflow-hidden">
+            <div class="absolute top-0 right-0 w-32 h-32 bg-rose-600/10 rounded-full blur-3xl pointer-events-none"></div>
+            
+            <h2 class="serif-font text-2xl sm:text-3xl font-semibold text-white mb-6 flex items-center gap-3">
+                <i data-lucide="sparkles" class="w-6 h-6 text-rose-500"></i>
+                I Love You, Eshaal.
+            </h2>
+            
+            <div class="space-y-5 text-neutral-300 text-base sm:text-lg leading-relaxed font-light">
+                <p>
+                    Main aapse be-inteha mohabbat karta hoon. Meri zindagi mein aapki jagah koi nahi le sakta — na pehle koi tha, na aaj koi hai, aur <strong class="text-white font-semibold">inshaAllah aane wale kal mein bhi sirf aap hi hongi</strong>.
+                </p>
+                <p>
+                    Mera goal bohot bada hai. Main ek aisi empire khari karna chahta hoon jiska har ek hissa, har ek kamyabi, aur har ek cheez sirf aur sirf aapke naam ho. Jo kuch bhi mera hoga, uski asil maalik hamesha aap hongi. Main jo mehnat aaj kar raha hoon, woh hamare aane wale behtareen kal aur ek ba-izzat rishte (Nikah) ke liye hai.
+                </p>
+            </div>
+        </section>
+
+        <section class="w-full grid grid-cols-1 md:grid-cols-2 gap-6 mb-12">
+            
+            <div class="glass-card rounded-2xl p-7 transition-all duration-300">
+                <div class="w-12 h-12 rounded-xl bg-rose-500/10 flex items-center justify-center text-rose-400 mb-5 border border-rose-500/20">
+                    <i data-lucide="clock" class="w-6 h-6"></i>
+                </div>
+                <h3 class="text-xl font-bold text-white mb-2">Sirf Thoda Sa Sabr</h3>
+                <p class="text-neutral-400 text-sm sm:text-base leading-relaxed">
+                    Mujhe agle 2 se 3 saal apne career aur vision par pure focus ke sath lagane hain. Agar kabhi busy hone ki wajah se foran time na de sakoon, toh yeh mat sochna ke mere jazbaat badal gaye hain. Main hamesha loyal tha, hoon aur rahoonga.
+                </p>
+            </div>
+
+            <div class="glass-card rounded-2xl p-7 transition-all duration-300">
+                <div class="w-12 h-12 rounded-xl bg-rose-500/10 flex items-center justify-center text-rose-400 mb-5 border border-rose-500/20">
+                    <i data-lucide="message-circle-heart" class="w-6 h-6"></i>
+                </div>
+                <h3 class="text-xl font-bold text-white mb-2">Daily Routine & Contact</h3>
+                <p class="text-neutral-400 text-sm sm:text-base leading-relaxed">
+                    Aapke school ke baad (dopahar ko) aur jab bhi online aaoonga, sabse pehle aapko message dekh kar foran reply doonga. Subah aur raat ko routine baatcheet hamesha continue rahegi.
+                </p>
+            </div>
+
+        </section>
+
+        <section class="w-full glass-card rounded-3xl p-8 sm:p-10 border border-rose-500/30 text-center relative overflow-hidden">
+            <div class="absolute -bottom-10 left-1/2 -translate-x-1/2 w-48 h-48 bg-rose-600/20 rounded-full blur-3xl pointer-events-none"></div>
+            
+            <i data-lucide="crown" class="w-10 h-10 text-rose-400 mx-auto mb-4"></i>
+            <h3 class="serif-font text-2xl sm:text-4xl font-bold text-white mb-4">
+                Meri Manzil Sirf Tum Ho
+            </h3>
+            <p class="text-neutral-300 text-base sm:text-lg max-w-2xl mx-auto leading-relaxed mb-6 font-light">
+                Aapka yeh thoda sa intizar aur loyal support hamare future ko itna haseen bana dega jitna aapne socha bhi nahi hoga. Just trust the process and trust me.
+            </p>
+            
+            <div class="inline-block border-t border-neutral-800 pt-4 px-8 text-neutral-400 text-xs tracking-widest uppercase">
+                Forever & Always InshaAllah
+            </div>
+        </section>
+
+        <footer class="mt-16 text-neutral-600 text-xs tracking-wider">
+            Crafted with ultimate precision & loyalty.
+        </footer>
+
+    </main>
+
+    <script>
+        lucide.createIcons();
+
+        const canvas = document.getElementById('heartCanvas');
+        const ctx = canvas.getContext('2d');
+
+        let width = canvas.width = window.innerWidth;
+        let height = canvas.height = window.innerHeight;
+
+        window.addEventListener('resize', () => {
+            width = canvas.width = window.innerWidth;
+            height = canvas.height = window.innerHeight;
+        });
+
+        // 3D-like floating elements
+        class FloatingElement {
+            constructor() {
+                this.reset();
+            }
+
+            reset() {
+                this.x = Math.random() * width;
+                this.y = height + 50;
+                this.z = Math.random() * 0.8 + 0.2; // Depth simulation
+                this.size = (Math.random() * 12 + 6) * this.z;
+                this.speedY = (Math.random() * 0.8 + 0.4) * this.z;
+                this.speedX = (Math.random() - 0.5) * 0.5;
+                this.opacity = (Math.random() * 0.4 + 0.1) * this.z;
+                this.rotation = Math.random() * Math.PI * 2;
+                this.rotSpeed = (Math.random() - 0.5) * 0.02;
+            }
+
+            drawHeart(x, y, size) {
+                ctx.save();
+                ctx.translate(x, y);
+                ctx.rotate(this.rotation);
+                ctx.beginPath();
+                const d = size;
+                ctx.moveTo(0, 0);
+                ctx.bezierCurveTo(-d / 2, -d / 2, -d, d / 3, 0, d);
+                ctx.bezierCurveTo(d, d / 3, d / 2, -d / 2, 0, 0);
+                ctx.fillStyle = `rgba(225, 29, 72, ${this.opacity})`;
+                ctx.shadowColor = 'rgba(244, 63, 94, 0.4)';
+                ctx.shadowBlur = 10 * this.z;
+                ctx.fill();
+                ctx.restore();
+            }
+
+            update() {
+                this.y -= this.speedY;
+                this.x += this.speedX;
+                this.rotation += this.rotSpeed;
+
+                if (this.y < -50 || this.x < -50 || this.x > width + 50) {
+                    this.reset();
+                }
+            }
+        }
+
+        const elements = Array.from({ length: 45 }, () => new FloatingElement());
+
+        function animate() {
+            ctx.clearRect(0, 0, width, height);
+            elements.forEach(el => {
+                el.update();
+                el.drawHeart(el.x, el.y, el.size);
+            });
+            requestAnimationFrame(animate);
+        }
+
+        animate();
+    </script>
+</body>
+</html>
